@@ -6,6 +6,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(routerConfig: Routes.router, title: "Epistle");
+    return MaterialApp.router(
+      routerConfig: Routes.router,
+      title: "Epistle",
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
